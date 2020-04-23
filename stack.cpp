@@ -40,7 +40,7 @@ void PrintStack(const stack* p)
    std::cout << std::endl;
 }
 
-void DeleteStack(stack* &p) 
+stack* DeleteStack(stack* p) 
 {
    stack* q;
    while (p) {
@@ -48,6 +48,7 @@ void DeleteStack(stack* &p)
       free(p);
       p = q;
    }
+   return NULL;
 }
 
 bool IsElemHere(stack* p, const int num)

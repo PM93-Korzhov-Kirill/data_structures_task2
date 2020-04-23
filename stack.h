@@ -26,7 +26,7 @@ int Pop(stack* &p, int &num);
 void PrintStack(const stack* p);
 
 /*Удалить стек, освободить память*/
-void DeleteStack(stack* &p);
+stack* DeleteStack(stack* p);
 
 /*узнать принадлежит ли данный элемент стеку*/
 bool IsElemHere(stack* p, const int num);

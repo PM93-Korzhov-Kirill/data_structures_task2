@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
    setlocale(LC_CTYPE, "Rus");
-   ifstream fin("in.txt");
+   ifstream fin("../in.txt");
 
    int num;
    fin >> num;
@@ -24,7 +24,7 @@ int main()
    else
       cout << "Вашего числа нет в стеке";
 
-   DeleteStack(p);
+   p = DeleteStack(p);
    getchar();
    return 0;
 }
