@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
    setlocale(LC_CTYPE, "Rus");
-   ifstream fin("../in.txt");
+   ifstream fin("in.txt");
 
    int num;
    fin >> num;
