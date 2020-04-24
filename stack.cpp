@@ -51,7 +51,7 @@ stack* DeleteStack(stack* p)
    return NULL;
 }
 
-bool IsElemHere(stack* p, const int num)
+bool IsElemHere(stack* &p, const int num)
 {
    stack* q = NULL;
    int a;

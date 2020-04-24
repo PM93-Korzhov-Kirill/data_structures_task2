@@ -29,4 +29,4 @@ void PrintStack(const stack* p);
 stack* DeleteStack(stack* p);
 
 /*узнать принадлежит ли данный элемент стеку*/
-bool IsElemHere(stack* p, const int num);
+bool IsElemHere(stack* &p, const int num);
